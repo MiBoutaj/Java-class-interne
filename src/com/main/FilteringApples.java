@@ -106,6 +106,7 @@ public class FilteringApples {
         }
 
         System.out.println("------------------------------------------------");
+System.out.println("------------------------------------------------");
         System.out.println("List de green By Color by Predicate interface");
         for (Apple apple : filter(new AppleColorPredicate())) {
             System.out.println(apple);
